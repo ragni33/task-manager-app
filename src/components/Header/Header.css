@@ -1,0 +1,110 @@
+/* src/components/Header/Header.css */
+.header {
+  color: white; /* Header text color */
+  padding: 10px 0;
+  
+}
+
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar-toggler-icon {
+  color: white; /* Toggle button color */
+}
+
+.navbar-toggler:focus {
+  outline: none; /* Remove outline on focus */
+}
+
+.navbar-nav .nav-item {
+  margin-left: 20px;
+}
+
+.navbar-nav .nav-link {
+  color: black;
+  font-size: 18px;
+ 
+}
+
+/* Style for the responsive navbar when collapsed */
+.navbar-collapse.collapse {
+  display: none;
+}
+
+.navbar-collapse.collapse.show {
+  display: block;
+}
+
+.navbar-toggler {
+ /* Transparent background for the toggle button */
+  border: none; /* Remove button border */
+  cursor: pointer;
+  color: black;
+}
+
+/* Style for the navigation links when collapsed */
+.navbar-nav.ml-auto.collapsed {
+  text-align: center;
+  width: 100%;
+   position: absolute;
+  top: 55px; /* Adjust the top position as needed */
+  right: 0;
+
+  z-index: 1;
+}
+
+.navbar-nav.ml-auto.collapsed .nav-item {
+  margin-left: 0;
+  color: black;
+}
+
+/* Style for the navigation links in collapsed mode */
+.navbar-nav.ml-auto.collapsed .nav-link {
+  display: block;
+  padding: 10px 20px; /* Adjust padding as needed */
+  color: black;
+  font-size: 18px;
+   text-align: center;
+}
+
+.navbar-nav.ml-auto.collapsed .nav-link:last-child {
+  border-bottom: none; /* Remove border from the last link */
+}
+
+
+  .home {
+    padding: 15% 0;
+    background-color: white;
+    color: black;
+    text-align: center;
+    height: 900px;
+    
+  }
+  
+  .home-title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+
+  }
+  
+  .home-subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .home-description {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .home-image {
+    max-width: 100%;
+    height: 500px;
+    margin-top: -9%;
+    
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
