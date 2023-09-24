@@ -16,9 +16,9 @@ function Header() {
   return (
     <section>
 <header className="header">
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+      <nav className="navbar navbar-expand-lg navbar-light">
         <div className="container">
-          <a className="navbar-brand" href="/">
+          <a className="navbar-brand" href="/home">
             Task Manager
           </a>
           <button
@@ -34,23 +34,26 @@ function Header() {
             id="navbarNav"
           >
             <ul className="navbar-nav ml-auto">
+              
               <li className="nav-item">
-                <Link className="nav-link" to="/">
-                  Home
+                <Link className="nav-link" to="/dashboard">
+                  Dashboard
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/tasks">
-                  Tasks
+                <Link className="nav-link" to="/taskform">
+                  Task Form
                 </Link>
               </li>
+
+              
               <li className="nav-item">
-                <Link className="nav-link" to="/tasks/add">
-                  Add Task
+                <Link className="nav-link" to="/taskitem">
+                  Task Items
                 </Link>
               </li>
-              {/* Add links for other pages */}
-            </ul>
+              
+              </ul>
           </div>
         </div>
       </nav>

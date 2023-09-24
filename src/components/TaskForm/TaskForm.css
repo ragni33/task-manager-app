@@ -1,0 +1,74 @@
+
+.task-form {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: darkslateblue;
+    border-radius: 5px;
+    color: white;  
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    font-weight: bold;
+  }
+  
+  textarea {
+    width: 100%;
+  }
+  
+  .form-actions {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .saved-task {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    width: 80%;
+    margin-left: 10%;
+
+  }
+  
+  .saved-task h3 {
+    margin-bottom: 10px;
+  }
+  
+  .saved-task p {
+    margin: 5px 0;
+  }
+  
+  .saved-task button {
+    padding: 5px 10px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .saved-task button:hover {
+    background-color: #c82333;
+  }
+  

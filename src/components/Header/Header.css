@@ -1,8 +1,7 @@
 /* src/components/Header/Header.css */
 .header {
   color: white; /* Header text color */
-  padding: 10px 0;
-  
+  padding: 10px 0;  
 }
 
 .navbar-brand {
@@ -27,8 +26,6 @@
   font-size: 18px;
  
 }
-
-/* Style for the responsive navbar when collapsed */
 .navbar-collapse.collapse {
   display: none;
 }
@@ -38,13 +35,11 @@
 }
 
 .navbar-toggler {
- /* Transparent background for the toggle button */
-  border: none; /* Remove button border */
+  border: none; 
   cursor: pointer;
-  color: black;
+  color:white;  
 }
 
-/* Style for the navigation links when collapsed */
 .navbar-nav.ml-auto.collapsed {
   text-align: center;
   width: 100%;
@@ -54,7 +49,6 @@
 
   z-index: 1;
 }
-
 .navbar-nav.ml-auto.collapsed .nav-item {
   margin-left: 0;
   color: black;
@@ -70,7 +64,7 @@
 }
 
 .navbar-nav.ml-auto.collapsed .nav-link:last-child {
-  border-bottom: none; /* Remove border from the last link */
+  border-bottom: none; 
 }
 
 
@@ -102,8 +96,7 @@
   .home-image {
     max-width: 100%;
     height: 500px;
-    margin-top: -9%;
-    
+    margin-top: -9%;  
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   }
